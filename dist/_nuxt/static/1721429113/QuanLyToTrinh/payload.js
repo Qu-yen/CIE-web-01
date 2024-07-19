@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/QuanLyToTrinh", {data:[{}],fetch:{},mutations:[]});

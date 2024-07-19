@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/TongQuan", {data:[{}],fetch:{},mutations:[]});

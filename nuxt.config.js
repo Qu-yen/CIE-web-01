@@ -64,7 +64,7 @@ export default {
   },
   target: 'static',
   router: {
-    base: '/WebCIEManagement~/'
+    base: '/CIE-web-01/'
   },
   generate: {
     fallback: '404.html'
