@@ -66,7 +66,7 @@ export default {
   router: {
     base: '/CIE-web-01/'
   },
-  generate: {
-    fallback: '404.html'
-  }
+  // generate: {
+  //   fallback: '404.html'
+  // }
 }
