@@ -104,7 +104,7 @@ module.exports =
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/WebCIEManagement~/_nuxt/";
+/******/ 	__webpack_require__.p = "/CIE-web-01/_nuxt/";
 /******/
 /******/ 	// uncaught error handler for webpack runtime
 /******/ 	__webpack_require__.oe = function(err) {
@@ -521,7 +521,7 @@ module.exports = require("vue-meta");
 /* 16 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"title\":\"web-01\",\"meta\":[{\"hid\":\"charset\",\"charset\":\"utf-8\"},{\"hid\":\"viewport\",\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},{\"hid\":\"mobile-web-app-capable\",\"name\":\"mobile-web-app-capable\",\"content\":\"yes\"},{\"hid\":\"apple-mobile-web-app-title\",\"name\":\"apple-mobile-web-app-title\",\"content\":\"web-01\"},{\"hid\":\"description\",\"name\":\"description\",\"content\":\"## Build Setup\"},{\"hid\":\"og:type\",\"name\":\"og:type\",\"property\":\"og:type\",\"content\":\"website\"},{\"hid\":\"og:title\",\"name\":\"og:title\",\"property\":\"og:title\",\"content\":\"web-01\"},{\"hid\":\"og:site_name\",\"name\":\"og:site_name\",\"property\":\"og:site_name\",\"content\":\"web-01\"},{\"hid\":\"og:description\",\"name\":\"og:description\",\"property\":\"og:description\",\"content\":\"## Build Setup\"}],\"link\":[{\"hid\":\"shortcut-icon\",\"rel\":\"shortcut icon\",\"href\":\"/WebCIEManagement~/_nuxt/icons/icon_64x64.e3e9fb.png\"},{\"hid\":\"apple-touch-icon\",\"rel\":\"apple-touch-icon\",\"href\":\"/WebCIEManagement~/_nuxt/icons/icon_512x512.e3e9fb.png\",\"sizes\":\"512x512\"},{\"rel\":\"manifest\",\"href\":\"/WebCIEManagement~/_nuxt/manifest.d887bc8d.json\",\"hid\":\"manifest\"}],\"htmlAttrs\":{\"lang\":\"en\"}}");
+module.exports = JSON.parse("{\"title\":\"web-01\",\"meta\":[{\"hid\":\"charset\",\"charset\":\"utf-8\"},{\"hid\":\"viewport\",\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},{\"hid\":\"mobile-web-app-capable\",\"name\":\"mobile-web-app-capable\",\"content\":\"yes\"},{\"hid\":\"apple-mobile-web-app-title\",\"name\":\"apple-mobile-web-app-title\",\"content\":\"web-01\"},{\"hid\":\"description\",\"name\":\"description\",\"content\":\"## Build Setup\"},{\"hid\":\"og:type\",\"name\":\"og:type\",\"property\":\"og:type\",\"content\":\"website\"},{\"hid\":\"og:title\",\"name\":\"og:title\",\"property\":\"og:title\",\"content\":\"web-01\"},{\"hid\":\"og:site_name\",\"name\":\"og:site_name\",\"property\":\"og:site_name\",\"content\":\"web-01\"},{\"hid\":\"og:description\",\"name\":\"og:description\",\"property\":\"og:description\",\"content\":\"## Build Setup\"}],\"link\":[{\"hid\":\"shortcut-icon\",\"rel\":\"shortcut icon\",\"href\":\"/CIE-web-01/_nuxt/icons/icon_64x64.e3e9fb.png\"},{\"hid\":\"apple-touch-icon\",\"rel\":\"apple-touch-icon\",\"href\":\"/CIE-web-01/_nuxt/icons/icon_512x512.e3e9fb.png\",\"sizes\":\"512x512\"},{\"rel\":\"manifest\",\"href\":\"/CIE-web-01/_nuxt/manifest.63f35cc3.json\",\"hid\":\"manifest\"}],\"htmlAttrs\":{\"lang\":\"en\"}}");
 
 /***/ }),
 /* 17 */
@@ -1448,7 +1448,7 @@ const emptyFn = () => {};
 external_vue_default.a.use(external_vue_router_default.a);
 const routerOptions = {
   mode: 'history',
-  base: '/WebCIEManagement~/',
+  base: '/CIE-web-01/',
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior: router_scrollBehavior,
@@ -2510,23 +2510,23 @@ var meta = __webpack_require__(16);
 // CONCATENATED MODULE: ./.nuxt/pwa/icon.plugin.js
 /* harmony default export */ var icon_plugin = (async function (ctx, inject) {
   const icons = {
-    "64x64": "/WebCIEManagement~/_nuxt/icons/icon_64x64.e3e9fb.png",
-    "120x120": "/WebCIEManagement~/_nuxt/icons/icon_120x120.e3e9fb.png",
-    "144x144": "/WebCIEManagement~/_nuxt/icons/icon_144x144.e3e9fb.png",
-    "152x152": "/WebCIEManagement~/_nuxt/icons/icon_152x152.e3e9fb.png",
-    "192x192": "/WebCIEManagement~/_nuxt/icons/icon_192x192.e3e9fb.png",
-    "384x384": "/WebCIEManagement~/_nuxt/icons/icon_384x384.e3e9fb.png",
-    "512x512": "/WebCIEManagement~/_nuxt/icons/icon_512x512.e3e9fb.png",
-    "ipad_1536x2048": "/WebCIEManagement~/_nuxt/icons/splash_ipad_1536x2048.e3e9fb.png",
-    "ipadpro9_1536x2048": "/WebCIEManagement~/_nuxt/icons/splash_ipadpro9_1536x2048.e3e9fb.png",
-    "ipadpro10_1668x2224": "/WebCIEManagement~/_nuxt/icons/splash_ipadpro10_1668x2224.e3e9fb.png",
-    "ipadpro12_2048x2732": "/WebCIEManagement~/_nuxt/icons/splash_ipadpro12_2048x2732.e3e9fb.png",
-    "iphonese_640x1136": "/WebCIEManagement~/_nuxt/icons/splash_iphonese_640x1136.e3e9fb.png",
-    "iphone6_50x1334": "/WebCIEManagement~/_nuxt/icons/splash_iphone6_50x1334.e3e9fb.png",
-    "iphoneplus_1080x1920": "/WebCIEManagement~/_nuxt/icons/splash_iphoneplus_1080x1920.e3e9fb.png",
-    "iphonex_1125x2436": "/WebCIEManagement~/_nuxt/icons/splash_iphonex_1125x2436.e3e9fb.png",
-    "iphonexr_828x1792": "/WebCIEManagement~/_nuxt/icons/splash_iphonexr_828x1792.e3e9fb.png",
-    "iphonexsmax_1242x2688": "/WebCIEManagement~/_nuxt/icons/splash_iphonexsmax_1242x2688.e3e9fb.png"
+    "64x64": "/CIE-web-01/_nuxt/icons/icon_64x64.e3e9fb.png",
+    "120x120": "/CIE-web-01/_nuxt/icons/icon_120x120.e3e9fb.png",
+    "144x144": "/CIE-web-01/_nuxt/icons/icon_144x144.e3e9fb.png",
+    "152x152": "/CIE-web-01/_nuxt/icons/icon_152x152.e3e9fb.png",
+    "192x192": "/CIE-web-01/_nuxt/icons/icon_192x192.e3e9fb.png",
+    "384x384": "/CIE-web-01/_nuxt/icons/icon_384x384.e3e9fb.png",
+    "512x512": "/CIE-web-01/_nuxt/icons/icon_512x512.e3e9fb.png",
+    "ipad_1536x2048": "/CIE-web-01/_nuxt/icons/splash_ipad_1536x2048.e3e9fb.png",
+    "ipadpro9_1536x2048": "/CIE-web-01/_nuxt/icons/splash_ipadpro9_1536x2048.e3e9fb.png",
+    "ipadpro10_1668x2224": "/CIE-web-01/_nuxt/icons/splash_ipadpro10_1668x2224.e3e9fb.png",
+    "ipadpro12_2048x2732": "/CIE-web-01/_nuxt/icons/splash_ipadpro12_2048x2732.e3e9fb.png",
+    "iphonese_640x1136": "/CIE-web-01/_nuxt/icons/splash_iphonese_640x1136.e3e9fb.png",
+    "iphone6_50x1334": "/CIE-web-01/_nuxt/icons/splash_iphone6_50x1334.e3e9fb.png",
+    "iphoneplus_1080x1920": "/CIE-web-01/_nuxt/icons/splash_iphoneplus_1080x1920.e3e9fb.png",
+    "iphonex_1125x2436": "/CIE-web-01/_nuxt/icons/splash_iphonex_1125x2436.e3e9fb.png",
+    "iphonexr_828x1792": "/CIE-web-01/_nuxt/icons/splash_iphonexr_828x1792.e3e9fb.png",
+    "iphonexsmax_1242x2688": "/CIE-web-01/_nuxt/icons/splash_iphonexsmax_1242x2688.e3e9fb.png"
   };
   const getIcon = size => icons[size + 'x' + size] || '';
   inject('icon', getIcon);
@@ -3079,7 +3079,7 @@ const createNext = ssrContext => opts => {
   }
   let fullPath = Object(external_ufo_["withQuery"])(opts.path, opts.query);
   const $config = ssrContext.nuxt.config || {};
-  const routerBase = $config._app && $config._app.basePath || '/WebCIEManagement~/';
+  const routerBase = $config._app && $config._app.basePath || '/CIE-web-01/';
   if (!fullPath.startsWith('http') && routerBase !== '/' && !fullPath.startsWith(routerBase)) {
     fullPath = Object(external_ufo_["joinURL"])(routerBase, fullPath);
   }
