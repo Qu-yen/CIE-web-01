@@ -1,0 +1,237 @@
+<template>
+  <div class="login-page">
+        <div class="login-content">
+            <div>
+                <div class="img-logo">
+                    <img style=" width: 235.3px;height: 87px" src="../store/image/LOGO.png" alt="logo">
+                </div>
+                <div class="page-name">Đăng nhập</div>
+                <div>
+                    <form @submit.prevent="onSubmit">
+
+                   
+                        <div class="login-Email lg1">
+                            <label for="">Email</label>
+                            <input id="email" v-model="login_email" type="email" name="" placeholder="abc@gmail.com">
+                        </div>
+                        <div class="login-pass lg1" >
+                            <label for="">Mật khẩu</label>
+                            <input id="password" v-model="login_password" type="password" name="" placeholder="..........." >
+                        </div>
+                        <div class="login-remember lg1">
+                            <!-- <a href="///////">Quên mật khẩu</a> -->
+                            <nuxt-link to="/ForgotPass" style="width: 100%;">
+                              <a>Quên mật khẩu</a>
+                            </nuxt-link>
+                        </div>
+                        <div class="login-submit lg1">
+                            <NuxtLink to="/TongQuan"> <input id="login-button" type="submit" value="Đăng nhập"></NuxtLink>
+                        </div>
+                     </form>
+                </div>
+                
+            </div>
+            <div>
+                <div class="login-img-background">
+                    <img style="width: 610px;height: 353px;" src="../store/image/login-business 123 1.png" alt="business 123 1.png">
+                </div>
+            </div>
+        </div>
+        <h1></h1>
+    </div>
+    
+</template>
+
+<script >
+import myAction from '~/pages/action-login.js';
+export default {
+    
+  name: 'IndexPage',
+    layout:'auth',
+    methods:{
+        myFunction() {
+             myAction.someFunction();
+        },
+    },
+    
+    
+};
+</script>
+<style>
+@import "../assets/login-style.css";
+/* .login-page{
+  position: relative;
+    margin:  auto;
+  font-size: 1rem;
+  width: 1280px;
+    height: 820px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    
+    margin-top: 2%;
+}
+.login-page .login-content{
+    position: absolute;
+    margin: 0 auto;
+    width: 521px;
+    height: 496px;
+    top: 143px;
+    left: 5%;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: auto;
+
+}
+.login-page .img-logo img{
+    width: 235.3px;
+    height: 87px;
+}
+.login-page .img-logo{
+    margin-bottom: 50px;
+}
+.login-page .login-img-background{
+    position: absolute;
+    width: 610px;height: 353px;
+    top: 0px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 555px;
+    margin-top: 126px;
+}
+.login-page .page-name{
+    width: 128px;
+    height: 24px;
+    top: 299px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+
+    margin-left: 2px;
+    margin-bottom: 23px;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+}
+.login-page .login-Email{
+    width: 41px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    
+    margin-bottom: 23px;
+    width:513px;
+    height: 72px;
+
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.login-page .login-Email input{
+    width: 503px;
+    height: 48px;
+    padding-left: 10px;
+    gap: 0px;
+    margin-top: 6px;
+    border-radius: 12px ;
+    border: 1px ;
+    opacity: 0px;
+    border: 1px solid rgba(212, 215, 227, 1);
+    background: rgba(247, 251, 255, 1);
+
+}
+.login-page .login-pass{
+    width: 41px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    
+    margin-bottom: 23px;
+    width:513px;
+    height: 72px;
+
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+.login-page .login-pass input{
+    width: 503px;
+    height: 48px;
+    padding-left: 10px;
+    gap: 0px;
+    margin-top: 6px;
+    border-radius: 12px ;
+    border: 1px ;
+    opacity: 0px;
+    border: 1px solid rgba(212, 215, 227, 1);
+    background: rgba(247, 251, 255, 1);
+}
+.login-page .login-remember{
+    width: 117px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+
+    margin-bottom: 23px;
+
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+}
+.login-page .login-submit input{
+    width: 513px;
+    height: 52px;
+    padding: 16px 0px 16px 0px;
+    gap: 0px;
+    border-radius: 12px  ;
+    border: white;
+    
+    opacity: 0px;
+    
+    background: var(--Blue, rgba(66, 133, 244, 1));
+    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.login-page input:focus{
+    outline: 1px solid rgba(212, 215, 227, 1);   
+}
+.login-page .login-Email input,
+.login-page .login-pass input{
+    font-size: 18px;
+    font-weight: 200;
+    font-family: Helvetica, sans-serif;
+}
+.login-page .login-remember a{
+    position:absolute;
+    right:4px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    color: var(--Blue, rgba(66, 133, 244, 1));
+    margin-left: 0px;
+} */
+
+</style> 

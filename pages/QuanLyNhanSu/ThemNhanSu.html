@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm mới nhân sự </title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+    <div class="page-content">
+        <div class="h-header">
+            <div class="h-header-content">
+                <div class="header-box">
+                    
+                    <div class="header-box-search">
+                        
+                        <input type="text" name="" id="" placeholder="Tìm kiếm theo từ khóa">
+                    </div>
+                    <img class="icon-search" style="width: 24px;height: 24px;" src="../store/image/search-normal.png" alt="">
+                    <div>
+                        <div class="notification-box">
+                            <img style="width: 24px;height: 24px;" src="../store/image/notification.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="profile-box">
+                            <img style="width: 24px;height: 24px;" src="../store/image/profile-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </div>
+        <div class="main-menu">
+            <div class="menu-main-logo">
+                <a href="#">
+                    <img style="width: 125px;height: 46.22px;" src="../store/image/LOGO.png" alt="">
+                </a>
+                
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <span>
+                            <div>
+                                <span class="nav-link">
+                                    <span class="logo-menu-1">
+                                            <img style="width: 24px;height: 24px;"  src="../store/image/Apartment_Home_Icon_UIA (2).png" alt=""> 
+                                        
+                                    </span>
+                                    <span class="title-menu-1">Tổng quan</span>
+                                </span>
+                            </div>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <div>
+                                <span class="nav-link">
+                                    <span class="logo-menu-1">
+                                        <img style="width: 24px;height: 24px;" src="../store/image/Sheet_Icon_UIA (2).png" alt="">
+                                    </span>
+                                    <span class="title-menu-1">Quản lý Tờ trình</span>
+                                </span>
+                            </div>
+                        </span>
+                        
+                    </li>
+                    <li>
+                        <span>
+                            <div>
+                                <span class="nav-link">
+                                    <span class="logo-menu-1">
+                                        <img style="width: 24px;height: 24px;" src="../store/image/archive-book (2).png" alt="">
+                                    </span>
+                                    <span class="title-menu-1">Quản lý Đề tài</span>
+                                </span>
+                            </div>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <div>
+                                <span class="nav-link">
+                                    <span class="logo-menu-1">
+                                        <img style="width: 24px;height: 24px;" src="../store/image/Profile_Icon_UIA (2).png" alt="">
+                                    </span>
+                                    <span class="title-menu-1">Quản lý Nhân sự</span>
+                                </span>
+                            </div>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <div>
+                                <span class="nav-link">
+                                    <span class="logo-menu-1">
+                                        <img style="width: 24px;height: 24px;" src="../store/image/Setting_Icon_UIA (2).png" alt="">
+                                    </span>
+                                    <span class="title-menu-1">Cài đặt phân quyền</span>
+                                </span>
+                            </div>
+                        </span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-logout">
+                <span>
+                    <div  class="menu-logout-box">
+                        <span class="logout-box">
+                            <span class="logout-box-img">
+                                <img style="width: 24px;height: 24px;" src="../store/image/logout.png" alt="">
+                            </span>
+                            <span class="logout-box-text">Đăng xuất</span>
+                        </span>
+                    </div>
+                </span>
+            </div>
+        </div>
+        <div class="page-content-main">
+            <main class="page-main-1">
+                <!-- /////////////////////// -->
+                 <div>
+                    <div>
+                        <div>
+                            <span>Thêm mới Nhân sự</span>
+                        </div>
+                    </div>
+                    <div class="box-thong-tin-ca-nhan">
+                        <div>
+                            <span>Thông tin cá nhân</span>
+                        </div>
+                        <div>
+                            <div>
+                                <div>Họ và tên khai sinh</div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập tên">
+                                </div>
+                            </div>
+                            <div>
+                                <div>Ngày sinh</div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn ngày">
+                                </div>
+                            </div>
+                            <div>
+                                <div>Giới tính</div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn giới tính">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <span>Nơi sinh: Xã/Phường</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn Xã/Phường">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Huyện/Quận</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn Huyện/Quận">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Tỉnh/TP</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn Tỉnh/TP">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <span>Dân tộc</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn dân tộc">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Tôn giáo</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập Tôn Giáo">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Nơi ở hiện nay</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập nơi ở hiện nay">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <span>Số CMND/CCCD</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập số">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Ngày cấp</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn ngày">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Số BHXH</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập số">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-thong-tin-tuyen-dung">
+                        <div>
+                            <span>Thông tin tuyển dụng </span>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <span>Ngày tuyển dụng</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn ngày">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Chức vụ hiện tại</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập chức vụ">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Chức vụ kiêm nhiệm </span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập chức vụ">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <span>Công việc chính được giao</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập công việc">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Chức danh nghề nghiệp viên chức </span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập chức danh">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Mã số </span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập mã số">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <span>Bậc lương</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập bậc lương">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Hệ số</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập hệ số">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Ngày hưởng </span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn ngày">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <span>Phụ cấp chức danh</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập phụ cấp">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Phụ cấp khác</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập phụ cấp">
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                    <div class="box-trinh-do-hoc-van">
+                        <div>
+                            <span>Trình độ học vấn</span>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <span>Trình độ giáo dục phổ thông</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn trình độ">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Trình độ chuyên môn cao nhất</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn ngày">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Trình độ theo nghiệp vụ chuyên ngành</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn trình độ">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <span>Ngoại ngữ</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn trình độ">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Tin học</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn trình độ">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <span>Ngày vào Đảng Cộng sản Việt Nam</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Nhập số">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>Ngày chính thức</span>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="" placeholder="Chọn ngày">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="box-tai-lieu">
+                        <div>
+                            <div>
+                                <span>Tài liệu</span><span>*</span>
+                            </div>
+                            <div>
+                                <div>
+                                    <div>CMND/CCCD (1 file PDF)</div>
+                                    <div>
+                                        <span>
+                                            <button>Tải lên file</button>
+                                        </span>
+                                        <span>
+                                            <button>Xem file</button>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>Bằng cấp (1 file PDF)</div>
+                                    <div>
+                                        <span>
+                                            <button>Tải lên file</button>
+                                        </span>
+                                        <span>
+                                            <button>Xem file</button>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>Hợp đồng nhân sự</div>
+                                    <div>
+                                        <span>
+                                            <button>Tải lên file</button>
+                                        </span>
+                                        <span>
+                                            <button>Xem file</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                <!-- /////////////////////// -->
+            </main>
+        </div>
+    </div>
+</body>
+</html>

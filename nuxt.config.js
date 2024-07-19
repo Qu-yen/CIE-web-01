@@ -58,5 +58,15 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  app: {
+    template: 'app.template.html'
+  },
+  target: 'static',
+  router: {
+    base: '/WebCIEManagement~/'
+  },
+  generate: {
+    fallback: '404.html'
   }
 }

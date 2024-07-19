@@ -1,0 +1,470 @@
+.page-content-main {
+    background: #f6f6f6;
+
+}
+.box-them-moi-nhan-su {
+    width: 1066px;
+    height:100%;
+    background-color: #ffe44a00;
+    margin-bottom: 120px;
+    color: #121212;
+
+}
+.box-them-moi-nhan-su
+.title-all
+.tt-text {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 28px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+.box-them-moi-nhan-su
+.title-all
+.tt-btn-them  button {
+    position: absolute;
+    top: 30px;
+    right: 28px;
+
+    width: 138px;
+    height: 48px;
+    padding: 12px 31px 12px 31px;
+    border: 1px solid #4285f4;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color:#ffffff;
+    background-color: #4285f4;
+}
+.box-them-moi-nhan-su
+.title-all
+.tt-btn-them  button:active {
+    color:#4285f4;
+    background-color: #ffffff;
+}
+.box-them-moi-nhan-su
+.box-thong-tin-ca-nhan  {
+    width: 1010px;
+    height: 520px;
+    margin-left: 28px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.title-con-ttcn .titlexx {
+    position: relative;
+    top: 28px;
+    margin-left: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-1  ,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-2  ,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-3  ,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-4  {
+    position: relative;
+    top: 28px;
+    margin-left: 28px;
+    margin-top: 24px;
+    text-align: left;
+    display: block;
+    display: inline-flex;
+}
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-1   .labelxx,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-2  .labelxx,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-3  .labelxx,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-4  .labelxx {
+    margin-bottom: 12px;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+
+}
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-1  input,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-2  input,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-3  input,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-4  input{
+    width: 310px;
+    height: 48px;
+    top: 36px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 16px ;
+    color:#121212;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+    margin-right: 12px;
+}
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-1  input::placeholder ,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-2  input::placeholder ,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-3  input::placeholder ,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-4  input::placeholder {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #999999;
+
+}
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-1  select,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-2  select,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-3  select,
+.box-them-moi-nhan-su  .box-thong-tin-ca-nhan  
+.box-box-input-ttcn-4  select {
+    width: 310px;
+    height: 48px;
+    top: 36px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 16px ;
+    color:#999999;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+    margin-right: 12px;
+}
+.box-them-moi-nhan-su 
+.box-thong-tin-tuyen-dung{
+    margin-top: 28px;
+    margin-left: 28px;
+    width: 1010px;
+    height: 520px;
+    border-radius: 20px ;
+    background-color: #ffffff;
+}
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung 
+.title-con-ttcn-x .titlexxx {
+    position: relative;
+    top: 28px;
+    margin-left: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung
+.box-box-input-ttcn-1x  ,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung 
+.box-box-input-ttcn-2x  ,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung 
+.box-box-input-ttcn-3x  ,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung
+.box-box-input-ttcn-4x  {
+    position: relative;
+    top: 28px;
+    margin-left: 28px;
+    margin-top: 24px;
+    text-align: left;
+    display: block;
+    display: inline-flex;
+}
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-1x   .labelxx--,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-2x  .labelxx--,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-3x  .labelxx--,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-4x  .labelxx-- {
+    margin-bottom: 12px;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+
+}
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-1x  input,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-2x  input,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-3x  input,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-4x  input{
+    width: 310px;
+    height: 48px;
+    top: 36px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 16px ;
+    color:#121212;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+    margin-right: 12px;
+}
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-1x  input::placeholder ,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-2x  input::placeholder ,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-3x  input::placeholder ,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-4x  input::placeholder {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #999999;
+
+}
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-1x  select,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-2x  select,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-3x  select,
+.box-them-moi-nhan-su  .box-thong-tin-tuyen-dung  
+.box-box-input-ttcn-4x  select {
+    width: 310px;
+    height: 48px;
+    top: 36px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 16px ;
+    color:#999999;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+    margin-right: 12px;
+}
+/* //////////////////// */
+.box-them-moi-nhan-su 
+.box-trinh-do-hoc-van {
+    margin-top: 28px;
+    margin-left: 28px;
+    width: 1010px;
+    height: 412px;
+    border-radius: 20px ;
+    background-color: #ffffff;
+}
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van
+.title-con-tdhv .titlexxx {
+    position: relative;
+    top: 28px;
+    margin-left: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van
+.box-box-input-ttcn-10  ,
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van 
+.box-box-input-ttcn-20  ,
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van 
+.box-box-input-ttcn-30  {
+    position: relative;
+    top: 28px;
+    margin-left: 28px;
+    margin-top: 24px;
+    text-align: left;
+    display: block;
+    display: inline-flex;
+}
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van  
+.box-box-input-ttcn-10  .labelxx-0,
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van  
+.box-box-input-ttcn-20  .labelxx-0,
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van  
+.box-box-input-ttcn-30  .labelxx-0 {
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+
+}
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van  
+.box-box-input-ttcn-10  input,
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van  
+.box-box-input-ttcn-20  input,
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van  
+.box-box-input-ttcn-30  input {
+    width: 310px;
+    height: 48px;
+    top: 36px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 16px ;
+    color:#121212;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+    margin-right: 12px;
+}
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van  
+.box-box-input-ttcn-10  input::placeholder ,
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van  
+.box-box-input-ttcn-20  input::placeholder ,
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van  
+.box-box-input-ttcn-30  input::placeholder  {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #999999;
+
+}
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van  
+.box-box-input-ttcn-10  select,
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van  
+.box-box-input-ttcn-20  select,
+.box-them-moi-nhan-su   .box-trinh-do-hoc-van  
+.box-box-input-ttcn-30  select  {
+    width: 310px;
+    height: 48px;
+    top: 36px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+    border-radius: 16px ;
+    color:#999999;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+    margin-right: 12px;
+}
+/* /////////////////// */
+.box-them-moi-nhan-su  .box-tai-lieu-ns {
+    width: 1010px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 28px;
+    margin-left: 28px;
+    padding-bottom: 60px;
+}
+.box-them-moi-nhan-su  .box-tai-lieu-ns
+.title-con-xx .titlexxx {
+    position: relative;
+    top: 28px;
+    margin-left: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.box-them-moi-nhan-su  .box-tai-lieu-ns
+.tai-len-tai-lieu  {
+    position: relative;
+    top: 28px;
+    margin-left: 28px;
+    margin-top: 24px;
+    text-align: left;
+    display: block;
+    display: inline-flex;
+}
+.box-them-moi-nhan-su  .box-tai-lieu-ns
+.tai-len-tai-lieu  .btn-bx-tt
+.btn-bx-title   {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color:#121212;
+    margin-bottom: 10px;
+}
+.box-them-moi-nhan-su  .box-tai-lieu-ns
+.tai-len-tai-lieu  .btn-bx-tt
+.class-btn-tai-lieu   {
+    margin-right: 20px;
+}
+.box-them-moi-nhan-su  .box-tai-lieu-ns
+.tai-len-tai-lieu  .btn-bx-tt
+.class-btn-tai-lieu  .file-up button {
+    width: 146px;
+    height: 48px;
+
+    padding: 12px 20px 12px 19px;
+    border-radius: 16px ;
+    border: 1px solid #d7e6ff;
+    background: #d7e6ff;
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: var(--Blue, #4285f4);
+    margin-right: 5px;
+}
+.box-them-moi-nhan-su  .box-tai-lieu-ns
+.tai-len-tai-lieu  .btn-bx-tt
+.class-btn-tai-lieu  .file-view button {
+    width: 146px;
+    height: 48px;
+
+    padding: 12px 20px 12px 19px;
+    border-radius: 16px ;
+    border: 1px solid #4285f4;
+    background: #ffffff;
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: var(--Blue, #4285f4);
+    margin-right: 5px;
+}
+/* /////////////// */
+
+
+.box-them-moi-nhan-su
+.title-all
+.tt-btn-sua  button {
+    position: absolute;
+    top: 30px;
+    right: 28px;
+
+    width: 150px;
+    height: 48px;
+    /* padding: 12px 24px 12px 28px; */
+    border: 1px solid #4285f4;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    
+    color:#4285f4;
+    background-color: #ffffff;
+}
+.box-them-moi-nhan-su
+.title-all
+.tt-btn-sua   button:active {
+    color:#ffffff;
+    background-color: #4285f4;
+}
+

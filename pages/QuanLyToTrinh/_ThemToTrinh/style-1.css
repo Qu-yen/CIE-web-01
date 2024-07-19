@@ -1,0 +1,359 @@
+
+
+.nuxt-link_{
+    background: #4286f400;
+    color: #626262;
+}
+.nuxt-link_:hover{
+    background: #e6f0ff;
+    /* color: #4285f4; */
+}
+.nuxt-link_vvv{
+    background: #e6f0ff;
+    color: #4285f4;
+}
+.li_vvv{
+    background: #e6f0ff;
+    color: #4285f4;
+}
+
+/* --------------------tHEM MOI TO TRINH------------------- */
+.them-moi-to-trinh-box-box{
+    position: relative;
+    top: 40px;
+    left: 28px;
+    width: 1010px;
+    /* height: 100%; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+.them-moi-to-trinh-box-box
+.them-moi-title{
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+      
+}
+.them-moi-to-trinh-box-box
+.box-thong-tin-to-trinh{
+    position: relative;
+    top: 30px;
+
+    width: 1010px;
+    height: 314px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 58px;
+}
+.them-moi-to-trinh-box-box
+.box-thong-tin-to-trinh
+.box-con{
+    position: absolute;
+    top: 30px;
+    width: 957px;
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-top: 0px;
+    background-color: rgba(192, 47, 47, 0);
+    border: 0px;
+}
+.them-moi-to-trinh-box-box
+.box-thong-tin-to-trinh
+.title-box-con {
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.them-moi-to-trinh-box-box
+.box-thong-tin-to-trinh .box-con-1
+.box-con-1-1-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+.them-moi-to-trinh-box-box
+.box-thong-tin-to-trinh
+.box-con-1-1-input textarea{
+    width: 923px;
+    padding: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 16px ;
+    height: 48px;
+    border: 1px solid rgba(211, 211, 211, 1);
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.them-moi-to-trinh-box-box
+.box-thong-tin-to-trinh
+.box-con-1-1-input textarea::placeholder{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.them-moi-to-trinh-box-box
+.box-thong-tin-to-trinh
+.box-con-1-2{
+    margin-top: 20px;
+    display: block;
+    display: inline-flex;
+
+}
+.them-moi-to-trinh-box-box
+.box-thong-tin-to-trinh
+.box-con-1-2 .bx{
+    width: 311px;
+    margin-right: 11px;
+}
+.them-moi-to-trinh-box-box
+.box-thong-tin-to-trinh
+.box-con-1-2 .bx .label{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+
+}
+.them-moi-to-trinh-box-box
+.box-thong-tin-to-trinh
+.box-con-1-2 .bx input{
+    width: 279px;
+    height: 46px;
+    border: 1px solid #d3d3d3;
+    border-radius: 16px;
+    padding: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.them-moi-to-trinh-box-box
+.box-thong-tin-to-trinh
+.box-con-1-2 .bx input::placeholder{
+    font-size: 16px;
+}
+/* ---------------- */
+.box-tai-lieu{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1010px;
+    height: 451px;
+    border-radius: 20px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 140px;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.box-tai-lieu
+.noi-dung-tai{
+    position: absolute;
+    top: 30px;
+    margin-left: 28px;
+    width: 961px;
+    background-color: rgba(238, 255, 81, 0);
+    
+}
+.box-tai-lieu
+.title-name{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.box-tai-lieu
+.tai-lieu-tai-box{
+    display: block;
+    display: inline-flex;
+    /* width: 320px; */
+    margin-bottom: 30px;
+}
+.box-tai-lieu
+.tai-lieu-tai-box .bx-bx{
+    width: 320px;
+}
+.box-tai-lieu
+.tai-lieu-tai-box .bx-bx
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    width: 146px;
+    height: 48px;
+    margin-right: 6px;
+    border-radius: 16px;
+    border: 1px solid #d3d3d3;
+
+    }
+.box-tai-lieu
+.tai-lieu-tai-box .bx__03 select {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 311px;
+    height: 46px;
+    padding: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid #d3d3d3;
+    color: #999999;
+
+    
+}
+.box-tai-lieu
+.label{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 10px;
+
+}
+.box-tai-lieu
+ .btn-upload button{
+    background: #d7e6ff;
+    border: 1px solid #d7e6ff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: var(--Blue, #4285f4);
+
+
+}
+.box-tai-lieu
+ .btn-view button{
+    background: #ffffff;
+    border:  1px solid #4285f4;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #4285f4;
+}
+.box-table-phien-ban__{
+    position: relative;
+    top: 0px;
+}
+.box-table-phien-ban__ table{
+    border-collapse: collapse;
+    border: rgba(255, 192, 203, 0);
+}
+.box-table-phien-ban__ .div-table{
+    margin-top: 10px;
+    text-align: left;
+    border: 1px solid #d3d3d3;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+.box-table-phien-ban__ table .tr-tr{
+    border-bottom: 1px solid  #d3d3d3;
+}
+.box-table-phien-ban__ table th,
+.box-table-phien-ban__ table td{
+    padding-right: 20px;
+}
+.box-table-phien-ban__ table tr .stt{
+    text-align: center;
+}
+.box-table-phien-ban__ .btn-btn-them {
+    text-align: center;
+    margin: 30px;
+
+}
+.box-table-phien-ban__ .btn-btn-them  button{
+    width: 443px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    border: 1px solid #4285f4;
+    border-radius: 16px;
+    background-color: #ffffff;
+    color: var(--Blue, #4285f4);
+
+}
+.box-table-phien-ban__ .btn-btn-them  button:active{
+    color:#ffffff;
+    background-color:  var(--Blue, #4285f4);
+
+}
+.box-title-them-moi-to-trinh
+.btn-xac-nhan-them{
+    position: absolute;
+    top: 0px;
+    right: 0%;
+}
+.box-title-them-moi-to-trinh
+.btn-xac-nhan-them button{
+    width: 138px;
+    height: 48px;
+    padding: 0px;
+    gap: 10px;
+    border-radius: 16px ;
+    border: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    background: var(--Blue, #4285f4);
+
+    color: #ffffff;
+}
+.box-title-them-moi-to-trinh
+.btn-xac-nhan-them button:active{
+    background: #ffffff;
+    border: 1px solid  #4285f4;
+    color: #4285f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////
+ */
+ textarea:focus,
+ input:focus{
+    outline: none;
+}
+select:focus{
+    outline: none;
+}

@@ -1,0 +1,624 @@
+html{
+    background-color: #82a5e7;
+}
+/* ------------------- Them Moi De Tai ------------------  */
+.box-de-tai-them-moi{
+    position: relative;
+    top: 40px;
+    left: 28px;
+    width: 1010px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 200px;
+}
+.box-de-tai-them-moi .title-them-moi-de-tai
+.title-div{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+
+}
+.box-de-tai-them-moi .title-them-moi-de-tai
+.btn-button-them-moi{
+    position: absolute;
+    top: 0px;
+    right: 0%;
+}
+.box-de-tai-them-moi .title-them-moi-de-tai
+.btn-button-them-moi button{
+    width: 138px;
+    height: 48px;
+    padding: 12px 31px 12px 31px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid   var(--Blue, #4285f4);
+    opacity: 0px;
+    background: var(--Blue, #4285f4);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai{
+    position: relative;
+    top: 35px;
+    width: 1010px;
+    height: 545px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background-color: #ffffff;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .title-1{
+    position: relative;
+    top: 28px;
+    left: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-1,
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-2,
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-3,
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-4 {
+    position: relative;
+    top: 28px;
+    left: 28px;
+    padding : 0px;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-1 .text-tx {
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-2 .text-tx ,
+.box-thong-tin-de-tai .nd-nd-3 .text-tx ,
+.box-thong-tin-de-tai .nd-nd-4 .text-tx {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-1  
+.input-nhap-ten-dt  textarea {
+    position: relative;
+    top: 0px;
+    width: 925px;
+    height: 40px;
+    padding: 16px 16px 16px 16px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-2{
+    margin-top: 18px;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .text-tx{
+    margin-bottom: 18px;
+    padding-left: 0px;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-2
+.select-loai-hinh{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-2
+.select-loai-hinh  select{
+    width: 279px;
+    height: 46px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid #d3d3d3;
+    opacity: 0px;
+    background: #ffffff;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-2
+.select-loai-hinh  select option{
+    color: #000000;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-2
+.input-ma-so{
+    position: absolute;
+    top: 0px;
+    left: 306px;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-2 input{
+    width: 279px;
+    height: 45px;
+    padding: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid #d3d3d3;
+    opacity: 0px;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-2
+.input-don-vi-chu-tri{
+    position: absolute;
+    top: 0px;
+    left: 644px;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-3{
+    position: relative;
+    top: 138px;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-3
+.nhap--1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-3
+.nhap--1  select{
+    width: 279px;
+    height: 46px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid #d3d3d3;
+    opacity: 0px;
+    background: #ffffff;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-3
+.nhap--2 {
+    position: absolute;
+    top: 0px;
+    left: 306px;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-3
+.nhap--2   input{
+    width: 279px;
+    height: 45px;
+    padding: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid #d3d3d3;
+    opacity: 0px;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-3
+.nhap--3 {
+    position: absolute;
+    top: 0px;
+    left: 644px;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-3
+.nhap--3  select{
+    width: 279px;
+    height: 46px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid #d3d3d3;
+    opacity: 0px;
+    background: #ffffff;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-4
+.nhap--1  {
+    position: relative;
+    top: 223px;
+}
+.box-de-tai-them-moi 
+.box-thong-tin-de-tai .nd-nd-4
+.nhap--1    input{
+    width: 279px;
+    height: 45px;
+    padding: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid #d3d3d3;
+    opacity: 0px;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+/* ----- */
+.box-de-tai-them-moi 
+.box-danh-sach-thanh-vien{
+    position: relative;
+    top: 35px;
+    width: 1010px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background-color: #ffffff;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    
+}
+.box-de-tai-them-moi 
+.box-danh-sach-thanh-vien
+.dstv-nd .title-2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 28px;
+    margin-bottom: 24px;
+}
+.box-de-tai-them-moi 
+.box-danh-sach-thanh-vien
+.box-table-ds-thanh-vien {
+    padding: 0px;
+    margin: 0px;
+}
+.box-de-tai-them-moi 
+.box-danh-sach-thanh-vien
+.box-table-ds-thanh-vien  table{
+    border: 1px solid #f0f0f000;
+    border-left: 21px solid rgba(255, 192, 203, 0);
+    
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.box-de-tai-them-moi 
+.box-danh-sach-thanh-vien
+.box-table-ds-thanh-vien  table tr{
+    border-bottom: 1px solid #f0f0f0;
+}
+.box-de-tai-them-moi 
+.box-danh-sach-thanh-vien
+.box-table-ds-thanh-vien  table th ,
+.box-de-tai-them-moi 
+.box-danh-sach-thanh-vien
+.box-table-ds-thanh-vien  table td {
+    text-align: left;
+    padding-right: 10px;
+}
+.box-de-tai-them-moi 
+.box-danh-sach-thanh-vien
+.box-table-ds-thanh-vien  table td {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.box-de-tai-them-moi 
+.box-danh-sach-thanh-vien
+.box-table-ds-thanh-vien  table .stt ,
+.box-de-tai-them-moi 
+.box-danh-sach-thanh-vien
+.box-table-ds-thanh-vien  table .btn-btn-button {
+    text-align: center;
+}
+.box-de-tai-them-moi 
+.box-danh-sach-thanh-vien
+.box-table-ds-thanh-vien  table .btn-btn-button
+ button{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #ff4f4f00;
+    background-color: #ffffff00;
+ }
+ .box-de-tai-them-moi 
+ .box-danh-sach-thanh-vien
+ .box-table-ds-thanh-vien  table .btn-btn-button
+  button:hover{
+    border: 1px solid #f0f0f0;
+    background-color: #f0f0f0;
+ }
+ .box-de-tai-them-moi 
+ .box-danh-sach-thanh-vien
+ .box-table-ds-thanh-vien  .btn-btn-them-thanh-vien
+  button{
+    position: relative;
+    top: 0px;
+    left: 300px;
+    width: 443px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 30px ;
+    opacity: 0px;
+    background: #ffffff;
+    border: 1px solid var(--Blue, #4285f4);
+    color: var(--Blue, #4285f4);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+ }
+ .box-de-tai-them-moi 
+ .box-danh-sach-thanh-vien
+ .box-table-ds-thanh-vien  .btn-btn-them-thanh-vien
+  button:active{ 
+    background: #4285f4;
+    border: 1px solid var(--Blue, #4285f4);
+    color: var(--Blue, #ffffff);
+    cursor: progress;
+ }
+
+
+
+
+/* ----- */
+.box-de-tai-them-moi 
+.box-ho-so-thuc-hien{
+    position: relative;
+    top: 35px;
+    width: 1010px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background-color: #ffffff;
+    padding-top: 26px;
+    padding-bottom: 120px;
+}
+.box-de-tai-them-moi 
+.box-ho-so-thuc-hien
+.title-text{
+    position: relative;
+    top: 0px;
+    left: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 28px;
+}
+.box-de-tai-them-moi 
+.box-nd-box-3
+.ho-so-thuc-hien-upload {
+    position: relative;
+    top: 0px;
+    left: 28px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+.box-de-tai-them-moi 
+.box-nd-box-3
+.ho-so-thuc-hien-upload .text{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.box-de-tai-them-moi 
+.box-nd-box-3
+.ho-so-thuc-hien-upload  .nd--1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.box-de-tai-them-moi 
+.box-nd-box-3
+.ho-so-thuc-hien-upload  .nd--1 
+.btn-1 button{
+    width: 146px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #d7e6ff;
+    color: var(--Blue, #4285f4);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid #d7e6ff;
+}
+.box-de-tai-them-moi 
+.box-nd-box-3
+.ho-so-thuc-hien-upload  .nd--1 
+.btn-2 button{
+    width: 146px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #ffffff;
+    color: var(--Blue, #4285f4);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid #4285f4;
+    margin-left: 6px;
+}
+.box-de-tai-them-moi 
+.box-nd-box-3
+.ho-so-thuc-hien-upload  .nd--2 {
+    position: absolute;
+    top: 0px;
+    left: 318px;
+    margin-left: 10px;
+}
+.box-de-tai-them-moi 
+.box-nd-box-3
+.ho-so-thuc-hien-upload  .nd--2
+.btn-1 button{
+    width: 146px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #d7e6ff;
+    color: var(--Blue, #4285f4);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid #d7e6ff;
+}
+.box-de-tai-them-moi 
+.box-nd-box-3
+.ho-so-thuc-hien-upload  .nd--2
+.btn-2 button{
+    width: 146px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #ffffff;
+    color: var(--Blue, #4285f4);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid #4285f4;
+    margin-left: 6px;
+}
+
+.box-de-tai-them-moi 
+.box-nd-box-3
+.ho-so-thuc-hien-upload  .nd--3 {
+    position: absolute;
+    top: 0px;
+    left: 644px;
+    margin-left: 10px;
+}
+.box-de-tai-them-moi 
+.box-nd-box-3
+.ho-so-thuc-hien-upload  .nd--3 
+.btn-1 button{
+    width: 146px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #d7e6ff;
+    color: var(--Blue, #4285f4);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid #d7e6ff;
+}
+.box-de-tai-them-moi 
+.box-nd-box-3
+.ho-so-thuc-hien-upload  .nd--3 
+.btn-2 button{
+    width: 146px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #ffffff;
+    color: var(--Blue, #4285f4);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: 1px solid #4285f4;
+    margin-left: 6px;
+}
+
+/* --------------------tHEM MOI TO TRINH------------------- */
+.them-moi-to-trinh-box-box{
+    position: relative;
+    top: 40px;
+    left: 28px;
+    width: 1010px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+.them-moi-to-trinh-box-box
+.them-moi-title{
+    width: 245px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+      
+}
+.them-moi-to-trinh-box-box
+.box-thong-tin-to-trinh{
+    position: relative;
+    top: 0px;
+}
+
+
+ /* ////////////////////////////// */
+
+input:focus,
+textarea:focus,
+select:focus{
+    outline: none;
+}
