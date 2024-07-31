@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{1023:function(n,o){function e(n){document.querySelector(n.form);console.log(n.rules)}e.isEmail=function(n){return{selector:n,test:function(){}}},e.isPassword=function(n){return{selector:n}}}}]);
